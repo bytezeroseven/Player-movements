@@ -9,3 +9,6 @@ Player movements with AABB collision detection and resolution.
 7. Collision detection and resolution
 5. All depends on time (i.e framerate won't affect speed)
 6. Fixed update rate
+
+## Demo
+https://bytezeroseven.github.io/Player-movements/
