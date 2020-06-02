@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Krunker Clone</title>
+	<link type="text/css" rel="stylesheet" href="main.css">
+</head>
+<body>
+	<canvas id="game-canvas"></canvas>
+	<div id="overlay">
+		<div id="content">
+			<h1>Player movements</h1>
+			<span>ASWD to move / Mouse to look around</span>
+			<span>Click to Start</span>
+		</div>
+	</div>
+	<script type="module">
+	
+	import Game from './Game.js';
+
+	var game = new Game();
+
+	game.animate();
+
+	</script>
+</body>
+</html>

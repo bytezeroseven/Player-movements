@@ -1,0 +1,42 @@
+
+
+body {
+	
+	margin: 0;
+	font-family: arial;
+
+}
+
+#game-canvas, #overlay {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+#game-canvas {
+
+	background: linear-gradient( #777, #222 );
+
+}
+
+#overlay {
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	background: rgba( 0, 0, 0, 0.3 );
+
+}
+
+#content {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+}
